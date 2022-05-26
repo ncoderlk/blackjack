@@ -40,6 +40,23 @@ header .h1 {
   border-radius: 5px;
   border: 2px solid;
 }
+#exit {
+  background-image: linear-gradient(to left, black, red);
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -104.5px;
+  float: right;
+}
+#exit:hover {
+  background-image: linear-gradient(to right, black, red);
+  color: #fff;
+}
 .column button:hover {
   background-image: linear-gradient(to right, black, red);
   color: #fff;
@@ -62,6 +79,5 @@ header .h1 {
 img {
   width: 180px;
   padding: 10px;
-  padding-top: 100px;
-  border-radius:5px;
+  padding-top: 50px;
 }
