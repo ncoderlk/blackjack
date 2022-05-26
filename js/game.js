@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     won: "You Have Won This Game...",
     lost: "You Have Lost This Game...",
     error: "404 Brain Not Found...Try Reload This Page...",
-    reload: "Please reset The Game...!",
+    reload: "Please restart The Game...!",
     //Generate
   };
   const $ = document.querySelector(".generate");
