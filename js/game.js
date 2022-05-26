@@ -45,10 +45,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-  //Restart button
-  const btn$$ = document.querySelector(".rest");
-  btn$$.addEventListener("click", () => {
-    document.getElementById("instruction").innerHTML = "";
-    location.reload();
-  });
 });
