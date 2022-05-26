@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("reset").style.display = "none";
   const app = {
     generateAnother: "Generate Another Card::?",
-    won: "You Have Won This Game...",
+    won: "Congratulations...You Have Won This Game...",
     lost: "You Have Lost This Game...",
     error: "404 Brain Not Found...Try Reload This Page...",
     reload: "Please reset The Game...!",
@@ -44,11 +44,5 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("instruction").innerHTML = app.error;
       }
     }
-  });
-  //Restart button
-  const btn$$ = document.querySelector(".rest");
-  btn$$.addEventListener("click", () => {
-    document.getElementById("instruction").innerHTML = "";
-    location.reload();
   });
 });
