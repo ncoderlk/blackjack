@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&family=Happy+Monkey&display=swap");
+body {
+  background-image: url("../images/background/bg3.jpg");
+  background-size: 100%;
+}
+/*------Header Started------*/
+header {
+  margin-top: 0;
+}
+header h1 {
+  font-family: Blaka;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px;
+  margin-top: 0;
+  padding: 0;
+}
+h1 span {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+header .h1 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0;
+  font-family: Happy Monkey;
+  margin-top: 0;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 5px 5px;
+}
+/*-------Header Ended-------*/
+.column button {
+  background-image: linear-gradient(to left, black, red);
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid;
+}
+.column button:hover {
+  background-image: linear-gradient(to right, black, red);
+  color: #fff;
+}
+.column .reset {
+  float: right;
+}
+.column #instruction {
+  text-align: center;
+  margin-left: 500px;
+  font-family: Arial;
+  color: #fff;
+}
+/*Content*/
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+img {
+  width: 180px;
+  padding: 10px;
+  padding-top: 100px;
+  border-radius:5px;
+}

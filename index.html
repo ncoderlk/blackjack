@@ -2,33 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/master.css" />
-    <link rel="icon" type="image/png" href="./images/other/head.png" />
-    <script src="./js/app.js" charset="utf-8" defer></script>
-    <script src="./js/lib.js" charset="utf-8" defer></script>
-    <title>BLACKJACK</title>
+    <link rel="stylesheet" href="./css/canvas.css" />
+    <title>Document</title>
   </head>
   <body>
     <div id="canvas">
-      <div class="header">
-        <img id="head" style="border: none" />
-        <span id="user">User:</span>
+      <header>
+        <h1>&#9827;BLACK<span>JACK&#9827;</span></h1>
+        <h1 class="h1">Current Score:<span id="score">000</span></h1>
+      </header>
+      <div class="column">
+        <button class="generate">$Generate</button>
+        <span id="instruction">Generate Card ?</span>
+        <button id="reset" class="reset">#Reload</button>
       </div>
-
-      <div id="wrapper">
-        <input type="button" class="generate" value="Generate" />
-        <input type="button" value="Restart" id="restart" class="restart" />
-        <h3 id="curnscore"></h3>
-        <h1 id="cr-score">000</h1>
-        <div class="second">
-          <h1 id="final"></h1>
-        </div>
-        <div id="content"></div>
-        
-      </div>
-      
+      <div id="content"></div>
     </div>
-  </div>
+    <script src="./js/game.js" charset="utf-8" defer></script>
   </body>
 </html>
