@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("reset").style.display = "none";
+  //Exit Button
+  const exit = document.querySelector(".exit");
+  exit.addEventListener("click", () => {
+    window.close("");
+  });
+  //Reload Button
+  const reset = document.querySelector(".reset");
+  reset.addEventListener("click", () => {
+    location.reload();
+  });
+  //Started
   const app = {
     generateAnother: "Generate Another Card::?",
     won: "You Have Won This Game...",
