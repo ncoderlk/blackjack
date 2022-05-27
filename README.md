@@ -3,7 +3,7 @@
 
 
 
-Cards Made From (Microsoft Paint 3D)<br>
+<h4>$$ Cards Made From GNU Image Manipulation Program [Gimp]</h4><a href="https://gimp.org" target="_blank"><img src="https://www.gimp.org/images/wilber32.png"></a><br>
 <img src="./xpang.png">
 <ul>
   
